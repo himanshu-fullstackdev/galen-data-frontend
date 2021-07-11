@@ -2,6 +2,13 @@
 
 /*=========================== GLOBAL CSS ===============================*/
 
+// fonts
+$mainfont: 'Roboto', sans-serif;
+
+// classes
+html, body { margin: 0; font-family: $mainfont; }
+.container { max-width: 1440px; margin: 0px auto; width: calc(100% - 140px); }
+
 /*=========================== PAGES ===============================*/
 
 // page - 404
