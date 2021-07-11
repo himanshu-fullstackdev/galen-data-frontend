@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*=========================== GLOBAL CSS ===============================*/
+
+/*=========================== PAGES ===============================*/
+
+// page - 404
+.page-404 {
+  & { display: flex; align-items: center; justify-content: center; height: 100vh; text-align: center; }
+  h1 { margin-bottom: 0px; font-weight: 400; font-size: 24px; }
+  span { font-size: 40px; }
+}
